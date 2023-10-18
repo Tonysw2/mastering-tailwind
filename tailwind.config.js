@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./src/**/*.tsx'],
+  darkMode: 'class',
   theme: {
     extend: {
       gridTemplateColumns: {
@@ -47,5 +48,6 @@ module.exports = {
       },
     },
   },
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
   plugins: [require('tailwind-scrollbar')({ nocompatible: true })],
 }
