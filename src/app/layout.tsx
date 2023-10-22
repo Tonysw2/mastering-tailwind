@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${inter.className} scrollbar-thumb-rounded-full antialiased scrollbar-thin scrollbar-track-zinc-100 scrollbar-thumb-zinc-500`}
+        className={`${inter.className} antialiased scrollbar-thin scrollbar-track-zinc-100 scrollbar-thumb-zinc-500 scrollbar-thumb-rounded-full`}
       >
         <Providers>
           <main className="min-h-screen dark:bg-zinc-900 lg:grid lg:grid-cols-app ">
